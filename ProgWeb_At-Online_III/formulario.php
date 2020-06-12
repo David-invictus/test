@@ -100,7 +100,7 @@
 			<td id = "show3.1"> <h5> " <?php echo "$mensagem"; ?> " </h5></td>
 		</tr>
 		<tr>
-			<td colspan="2" id = "voltar"> <a href = "home.php"> Voltar para a Página Inicial</a></td>
+			<td colspan="2" id = "voltar"> <a href = "index.php"> Voltar para a Página Inicial</a></td>
 		</tr>
 	</center>
 	</table>
