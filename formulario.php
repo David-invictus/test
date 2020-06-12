@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /*
  * formulario.php
@@ -30,11 +29,6 @@
 
 <!DOCTYPE html>
 <html lang = "en" "pt-br">
-=======
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" xml:lang="en" lang="en">
->>>>>>> 6f30c29736b83d52e6dcbb08a1e49c1c9291e866
 
 <head>
    <meta charset="utf-8" />
