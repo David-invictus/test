@@ -27,34 +27,35 @@ function validarEmail() {
 }
 
 function validacao(){
-	var mensagem = document.forms[0].mensagem.length;
-	var nome = document.forms[0].nome.length;
-	var email = document.forms[0].email.length;
+	var mensagem = document.forms[0].mensagem.value.length;
+	var nome = document.forms[0].nome.value.length;
+	var email = document.forms[0].email.value.length;
 	
-	var mensagem0 = "Campo E-mail vazio!";
-	var mensagem1 = "Campo Nome vazio!";
-	var mensagem2 = "Nome insuficiente!";
-	var mensagem3 = "O Campo Nome deve conter no mínimo 2 e máximo 40 caracteres.";
-	var mensagem4 = "O Campo Mesagem está vazio!";
-	var mensagem5 = "O campo mensagem deve ter, no mínimo 5 e no máximo 80, caracteres.";
+	var mensagem1 = "Campo E-mail vazio!";
+	var mensagem2 = "Campo E-mail deve conter o formato algumNome@outroNome";
+	var mensagem3 = "Campo Nome vazio!";
+	var mensagem4 = "Nome insuficiente!";
+	var mensagem5 = "O Campo Nome deve conter no mínimo 2 e máximo 40 caracteres.";
+	var mensagem6 = "O Campo Mesagem está vazio!";
+	var mensagem7 = "O campo mensagem deve ter, no mínimo 5 e no máximo 80, caracteres.";
 	
 	if (!email){
-		alert (mensagem0);
-	}
-	else if (nome == ""){
 		alert (mensagem1);
 	}
-	else if (nome == 1){
-		alert (mensagem2);
-	}
-	else if (nome > 40){
+	else if (nome == ""){
 		alert (mensagem3);
 	}
-	else if (mensagem == ""){
+	else if (nome == 1){
 		alert (mensagem4);
 	}
-	else if (mensagem < 5 || mensagem > 80){
+	else if (nome > 40){
 		alert (mensagem5);
+	}
+	else if (mensagem == ""){
+		alert (mensagem6);
+	}
+	else if (mensagem < 5 || mensagem > 80){
+		alert (mensagem7);
 	}
 	else{
 		document.forms[0].submit();
